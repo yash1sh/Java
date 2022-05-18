@@ -1,0 +1,7 @@
+
+.form{
+	background-color: red;
+	width:100vh;
+	height:100vh;
+	color:black;
+}

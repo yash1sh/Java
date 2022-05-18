@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+.form{
+	background-color: lightgreen;
+	width:50vh;
+	height:50vh;
+	color:black;
+}

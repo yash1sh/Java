@@ -1,0 +1,27 @@
+package com.alvas.demo;
+import java.sql.*;
+public class Connections {
+	
+	Connection con;
+	
+	public static Connection getcon()
+	{
+		try 
+		{
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root", "root");
+		return con;
+		}
+		catch(ClassNotFoundException e)
+		{
+			System.out.println("Class Not Found Exeption");
+		}
+		catch(SQLException e)
+		{
+			System.out.println("SQL Exception");
+		}
+		
+	}
+	
+	
+}

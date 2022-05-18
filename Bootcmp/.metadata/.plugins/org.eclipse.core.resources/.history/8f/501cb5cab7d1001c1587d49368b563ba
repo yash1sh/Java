@@ -1,0 +1,15 @@
+package com.alvas.demo;
+import java.sql.*;
+import java.util.*;
+
+import com.mysql.cj.protocol.x.SyncFlushDeflaterOutputStream;
+public class createDatabase {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		SyncFlushDeflaterOutputStream
+	}
+	
+	
+	
+}

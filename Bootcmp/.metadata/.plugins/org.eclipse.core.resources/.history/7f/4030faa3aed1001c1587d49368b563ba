@@ -1,0 +1,13 @@
+package com.alvas.demo;
+import java.sql.*;
+public class delete {
+
+	public static void main(String[] args) throws SQLException{
+		Connection con=Connections.getcon();
+		Statement st=con.createStatement();
+		st.execute("Delete From new_table where id='11';");
+		sqlPrint sp=new sqlPrint();
+		sp.print("new_table");
+	}
+	
+}

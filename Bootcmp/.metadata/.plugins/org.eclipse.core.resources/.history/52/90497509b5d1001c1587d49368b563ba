@@ -1,0 +1,22 @@
+package com.alvas.demo;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class createTable {
+
+	public static void creatingTable(String createTableQuery)
+	{
+		try
+		{
+		Connection conn=Connections.getcon();
+		Statement st=conn.createStatement();
+		st.execute(createTableQuery);
+		}
+		catch(SQLException e)
+		{
+			System.out.println("create table SQl error");
+		}
+		
+	}
+}

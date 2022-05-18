@@ -1,0 +1,26 @@
+package Controller;
+
+import java.io.IOException;
+import java.sql.*;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+import dao.PersonDao;
+
+public class Home_Servlet_Login extends GenericServlet{
+
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		PersonDao pd=new PersonDao();
+		Connection conn=pd.getConnection("students");
+		
+		if(req.getParameter("name")==)
+		
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="./indexcss.css">
+</head>
+<body>
+
+	<section class="form" >
+		<article>
+			<form action="hi">
+				<table>
+				
+				
+					<tr> <td><label>Usn</label>
+						<td><input type="text" id="usn" ></td>
+					<tr> <td> <label>Name</label> </td>
+						<td><input type="text" id="Name"></td>
+					<tr>		
+					<tr>
+						<td><label>Password</label></td>
+						<td><input type="password" id="password"></td>
+					</tr>
+					
+					<tr>
+						<td> <label>Gender</label></td>
+						<td> <input type="radio" name="gender"id="gender">Male
+						<input type="radio" name="gender">Female</td>
+					</tr>
+					<tr>
+						<td> <button type="submit" value="submit">Submit </button>
+					
+				</table>
+			</form>
+		</article>
+	</section>
+
+</body>
+</html>

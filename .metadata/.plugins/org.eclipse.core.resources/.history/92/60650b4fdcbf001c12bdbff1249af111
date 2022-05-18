@@ -1,0 +1,89 @@
+
+import java.util.Scanner;
+
+class ticket
+{
+	private String mov_name="malhari";
+	private int seat=69;
+	private int price=69;
+	private int time=69;
+	
+	public String getname()
+	{
+		return mov_name;
+	}
+	
+	public int getseat()
+	{
+		return seat;
+	}
+	
+	public int getprice()
+	{
+		return price;
+	}
+	
+	public int gettime()
+	{
+		return time;
+	}
+	
+	public void setname(String mov_name)
+	{
+		this.mov_name=mov_name;
+	}
+	
+	public void setseat(int seat)
+	{
+		this.seat=seat;
+	}
+	
+	public void setprice(int price)
+	{
+		this.price=price;
+	}
+	
+	public void settime(int time)
+	{
+		this.time=time;
+	}
+}
+
+
+class bookMyShow {
+	
+	String loc;
+	String hall_name;
+	int capacity;
+	ticket t=new ticket();
+	bookMyShow(String loc,String hall_name,int capacity)
+	{
+		this.loc=loc;
+		this.hall_name=hall_name;
+		this.capacity=capacity;
+	}
+	
+	public void ticketdetails()
+	{
+		System.out.printf("mov name "+t.getname()+"\nSeat no is "+t.getseat()+"\nPrice is "+t.getprice()+"\ntime for movie "+t.gettime());
+	}
+	
+	public void updateticket(String mov_name,int seat,int price,int time)
+	{
+		t.setname(mov_name);
+		t.setseat(seat);
+		t.setprice(price);
+		t.settime(time);
+	}
+	
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		String bbr=sc.next();
+		bookMyShow bs=new bookMyShow("wwwe","wedwde",2323);
+		bs.ticketdetails();
+		bs.updateticket(bbr, 344, 343, 3434);
+		bs.ticketdetails();
+	}
+
+}

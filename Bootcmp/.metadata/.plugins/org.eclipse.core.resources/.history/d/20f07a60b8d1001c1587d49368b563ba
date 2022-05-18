@@ -1,0 +1,17 @@
+package com.alvas.demo;
+import java.sql.*;
+import java.util.*;
+public class createDatabase {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Creating the data\n Enter the create query");
+		String query=sc.nextLine();
+		sc.nextLine();
+		
+		
+	}
+	
+	
+	
+}

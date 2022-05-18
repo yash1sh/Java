@@ -1,0 +1,35 @@
+package dao;
+import java.sql.*;
+public class PersonDao {
+
+	
+	
+	
+	
+	public Connection getConnection(String schemaName)
+	{
+		Connection conn = null;
+			try 
+			{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+schemaName+"","root", "root");
+			}
+			catch(ClassNotFoundException e)
+			{
+				System.out.println("Class Not Found Exeption");
+			}
+			catch(SQLException e)
+			{
+				System.out.println("SQL Exception");
+			}
+			return conn;
+			
+			
+		
+	}
+	
+	public static void InsertPerson()
+	{
+		
+	}
+}

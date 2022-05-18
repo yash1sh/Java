@@ -1,0 +1,73 @@
+package demo2;
+
+public class emp {
+	private int id;
+	private String Name;
+	private String Email;
+	private long Number;
+	
+	public void setId(int id)
+	{
+		this.id=id;
+	}
+	public void setName(String Name)
+	{
+		this.Name=Name;
+	}
+	public void setEmail(String Email)
+	{
+		this.Email=Email;
+	}
+	public void setNumber(Long Number)
+	{
+		this.Number=Number;
+	}
+	public int getId()
+	{
+		return id;
+	}
+	public String getName()
+	{
+		return Name;
+	}
+	public String getEmail()
+	{
+		return Email;
+	}
+	public long getNumber()
+	{
+		return Number;
+	}
+	
+	
+	public emp() {
+		super();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+                                                                                                                                    	
+	
+	
+	
+    
+	
+	
+}

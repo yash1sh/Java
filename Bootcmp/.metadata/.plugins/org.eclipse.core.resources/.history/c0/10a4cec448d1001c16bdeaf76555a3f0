@@ -1,0 +1,14 @@
+package com.alvas.demo;
+import java.sql.*;
+public class Update {
+	
+	public static void mai(String args[]) throws SQLException
+	{
+		Connection conn=Connections.getcon();
+		Statement st=conn.createStatement();
+		ResultSet rs=st.executeQuery("Select * from new_table");
+		
+		
+		
+	}
+}

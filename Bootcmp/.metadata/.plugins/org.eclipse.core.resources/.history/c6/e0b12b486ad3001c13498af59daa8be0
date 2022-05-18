@@ -1,0 +1,10 @@
+
+.form{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color: lightgreen;
+	width:50vh;
+	height:50vh;
+	color:black;
+}
