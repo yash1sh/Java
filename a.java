@@ -4,11 +4,6 @@
     static int a=69;
     String name="Yash";
 
-   
-
-
-
-
     public static void m1()
     {
         System.out.println("Hiii Yash ");
