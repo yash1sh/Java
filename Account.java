@@ -9,6 +9,20 @@ class Account {
 	private int age;
 	private String surname;
 	
+	Account()
+	{
+	}
+	
+	Account(String name, int usn, int age, String surname)
+	{
+		this();
+		this.name=name;
+		this.usn=usn;
+		this.age=age;
+		this.surname=surname;
+	}
+	
+	
 	public void setname(String name)
 	{
 		this.name=name;
