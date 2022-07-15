@@ -15,7 +15,7 @@ class Account {
 	
 	Account(String name, int usn, int age, String surname)
 	{
-		super();
+		this();
 		this.name=name;
 		this.usn=usn;
 		this.age=age;
