@@ -1,6 +1,7 @@
 
 public class amazon extends Shopping
 {
+    //constructor chaining
     amazon(int belt,int dress,int shoes)
     {
         super(belt, shoes, dress);
