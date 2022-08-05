@@ -8,8 +8,6 @@ class Branch
 	public Branch(String mngrname)	
 	{
 		this.mngrname=mngrname;
-		
-		
 	}
 	public Branch(String mngrname,String IFSC)
 	{
