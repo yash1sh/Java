@@ -51,27 +51,6 @@ static
         ab.bh(a,b);
         System.out.println("hahha");
 
-            // String ch=sc.next();
-            // switch(ch)
-            // {
-            //     case name:
-            //     System.out.println("Hello");
-            //     break;
-            //     case yash:
-            //     System.out.println("yes");
-            //     break;
-
-            // }
-        // b b = new b();
-        // a.m1();
-        // a.m2();
-        // a.m3();
-        // a.m4();
-        // b.m5();
-        // b.m6();
-        // System.out.println(ab.a);
-
-        // System.out.println(b.a+" "+b.name);
         ArrayList al=new ArrayList();
         al.add(sc.nextInt());
         al.add("Yash");
