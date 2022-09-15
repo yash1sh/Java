@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\Yash\Documents\Java Bootcamp\Bootcmp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3212398595.index
-\indust\src\main\java
-C:\Users\Yash\Documents\Java Bootcamp\Bootcmp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\159368856.index
-\indust\src\main\java
